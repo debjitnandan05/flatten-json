@@ -67,7 +67,7 @@ def write_file(write_folder, df):
     df.to_csv(write_path, index=False)
     print(f"File is written to {write_path}")
 
-#---------------- Main code ---------------------------
+#---------------- Main code -----------------------------
 url = "https://random-data-api.com/api/v2/users"
 
 raw_data = Json_data(url)
