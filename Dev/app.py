@@ -50,7 +50,7 @@ def transformation(df):
 
     df = df[new_order]
     df = df.copy()
-    df.rename(columns = {"address_country" : "country"} , inplace = True)
+    df.rename(columns = {"address_country" : "Country"} , inplace = True)
     return df
 
 #---------------- Function to write the data to a specific location ---------------------
